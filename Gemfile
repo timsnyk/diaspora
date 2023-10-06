@@ -2,11 +2,11 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "7.1.0"
 
 # Legacy Rails features, remove me!
 # responders (class level)
-gem "responders", "3.0.1"
+gem "responders", "3.1.0"
 
 # Appserver
 
@@ -16,7 +16,7 @@ gem "unicorn-worker-killer", "0.4.5"
 # Federation
 
 gem "diaspora_federation-json_schema", "0.2.6"
-gem "diaspora_federation-rails", "0.2.6"
+gem "diaspora_federation-rails", "1.0.0"
 
 # API and JSON
 
@@ -27,9 +27,9 @@ gem "yajl-ruby",   "1.4.1"
 
 # Authentication
 
-gem "devise", "4.8.0"
+gem "devise", "4.8.1"
 gem "devise_lastseenable", "0.0.6"
-gem "devise-two-factor", "4.0.0"
+gem "devise-two-factor", "5.0.0"
 gem "rqrcode", "2.0.0"
 
 # Captcha
@@ -63,9 +63,9 @@ gem "rack-cors", "1.1.1", require: "rack/cors"
 gem "autoprefixer-rails",     "10.2.5.1"
 gem "bootstrap-sass",         "3.4.1"
 gem "bootstrap-switch-rails", "3.3.3" # 3.3.4 and 3.3.5 is broken, see https://github.com/Bttstrp/bootstrap-switch/issues/691
-gem "compass-rails",          "3.1.0"
-gem "sass-rails",             "5.0.7"
-gem "sprockets-rails",        "3.2.2"
+gem "compass-rails", "4.0.0"
+gem "sass-rails", "5.0.8"
+gem "sprockets-rails", "3.3.0"
 
 # Database
 
@@ -94,10 +94,10 @@ gem "entypo-rails", "3.0.0"
 # JavaScript
 
 gem "handlebars_assets", "0.23.9"
-gem "jquery-rails",      "4.4.0"
-gem "jquery-ui-rails",   "5.0.5"
-gem "js-routes",         "1.4.14"
-gem "js_image_paths",    "0.1.1"
+gem "jquery-rails", "4.5.0"
+gem "jquery-ui-rails", "6.0.0"
+gem "js-routes", "2.0.0"
+gem "js_image_paths", "0.2.0"
 gem "sprockets-es6",     "0.9.2"
 
 source "https://gems.diasporafoundation.org" do
@@ -135,14 +135,14 @@ gem "markdown-it-html5-embed", "1.0.0"
 
 gem "http_accept_language", "2.1.1"
 gem "i18n-inflector-rails", "1.0.7"
-gem "rails-i18n",           "5.1.3"
+gem "rails-i18n", "7.0.1"
 
 # Mail
 
 gem "markerb",             "1.1.0"
 
 # Map
-gem "leaflet-rails",       "1.7.0"
+gem "leaflet-rails", "1.9.4"
 
 # Parsing
 
@@ -177,7 +177,7 @@ gem "active_model_serializers", "0.9.7"
 
 # Tags
 
-gem "acts-as-taggable-on", "8.1.0"
+gem "acts-as-taggable-on", "9.0.0"
 
 # URIs and HTTP
 
@@ -192,7 +192,7 @@ gem "typhoeus",           "1.4.0"
 gem "gon",                     "6.4.0"
 gem "hamlit",                  "2.15.0"
 gem "mobile-fu",               "1.4.0"
-gem "rails-timeago",           "2.19.1"
+gem "rails-timeago", "2.20.0"
 gem "will_paginate",           "3.3.0"
 
 # Logging
@@ -280,7 +280,7 @@ group :test do
 
   # General helpers
 
-  gem "factory_bot_rails", "6.1.0"
+  gem "factory_bot_rails", "6.2.0"
   gem "shoulda-matchers",  "4.5.1"
   gem "timecop",           "0.9.4"
   gem "webmock",           "3.13.0", require: false
@@ -290,10 +290,10 @@ end
 
 group :development, :test do
   # RSpec (unit tests, some integration tests)
-  gem "rspec-rails", "5.0.1"
+  gem "rspec-rails", "5.0.2"
 
   # Cucumber (integration tests)
-  gem "cucumber-rails", "2.3.0", require: false
+  gem "cucumber-rails", "2.5.0", require: false
 
   # Jasmine (client side application tests (JS))
   gem "chrome_remote",             "0.3.0"
