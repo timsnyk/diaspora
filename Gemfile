@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "7.1.0"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -97,7 +97,7 @@ gem "handlebars_assets", "0.23.9"
 gem "jquery-rails",      "4.4.0"
 gem "jquery-ui-rails",   "5.0.5"
 gem "js-routes",         "1.4.14"
-gem "js_image_paths",    "0.1.1"
+gem "js_image_paths", "0.2.0"
 gem "sprockets-es6",     "0.9.2"
 
 source "https://gems.diasporafoundation.org" do
