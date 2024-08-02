@@ -241,14 +241,14 @@ end
 
 group :development do
   # Linters
-  gem "haml_lint",      "0.37.1", require: false
-  gem "pronto",         "0.11.0", require: false
-  gem "pronto-eslint",  "0.11.0", require: false
-  gem "pronto-haml",    "0.11.0", require: false
-  gem "pronto-rubocop", "0.11.1", require: false
+  gem "haml_lint", "0.39.0", require: false
+  gem "pronto", "0.11.1", require: false
+  gem "pronto-eslint", "0.11.1", require: false
+  gem "pronto-haml", "0.11.1", require: false
+  gem "pronto-rubocop", "0.11.2", require: false
   gem "pronto-scss",    "0.11.0", require: false
-  gem "rubocop",        "0.93.1", require: false
-  gem "rubocop-rails",  "2.9.1", require: false
+  gem "rubocop", "1.0.0", require: false
+  gem "rubocop-rails", "2.10.0", require: false
 
   # Debugging
   gem "pry"
@@ -283,7 +283,7 @@ group :test do
   gem "factory_bot_rails", "6.1.0"
   gem "shoulda-matchers",  "4.5.1"
   gem "timecop",           "0.9.4"
-  gem "webmock",           "3.13.0", require: false
+  gem "webmock", "3.14.0", require: false
 
   gem "diaspora_federation-test", "0.2.6"
 end
