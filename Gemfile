@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "7.0.0"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -64,7 +64,7 @@ gem "autoprefixer-rails",     "10.2.5.1"
 gem "bootstrap-sass",         "3.4.1"
 gem "bootstrap-switch-rails", "3.3.3" # 3.3.4 and 3.3.5 is broken, see https://github.com/Bttstrp/bootstrap-switch/issues/691
 gem "compass-rails",          "3.1.0"
-gem "sass-rails",             "5.0.7"
+gem "sass-rails", "6.0.0"
 gem "sprockets-rails",        "3.2.2"
 
 # Database
@@ -142,7 +142,7 @@ gem "rails-i18n",           "5.1.3"
 gem "markerb",             "1.1.0"
 
 # Map
-gem "leaflet-rails",       "1.7.0"
+gem "leaflet-rails", "1.9.4"
 
 # Parsing
 
