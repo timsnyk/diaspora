@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "7.0.0"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -64,7 +64,7 @@ gem "autoprefixer-rails",     "10.2.5.1"
 gem "bootstrap-sass",         "3.4.1"
 gem "bootstrap-switch-rails", "3.3.3" # 3.3.4 and 3.3.5 is broken, see https://github.com/Bttstrp/bootstrap-switch/issues/691
 gem "compass-rails",          "3.1.0"
-gem "sass-rails",             "5.0.7"
+gem "sass-rails", "6.0.0"
 gem "sprockets-rails",        "3.2.2"
 
 # Database
@@ -142,11 +142,11 @@ gem "rails-i18n",           "5.1.3"
 gem "markerb",             "1.1.0"
 
 # Map
-gem "leaflet-rails",       "1.7.0"
+gem "leaflet-rails", "1.9.4"
 
 # Parsing
 
-gem "nokogiri",          "1.11.7"
+gem "nokogiri", "1.18.3"
 gem "open_graph_reader", "0.7.1" # also update User-Agent in features/support/webmock.rb and open_graph_cache_spec.rb
 gem "redcarpet",         "3.5.1"
 gem "ruby-oembed",       "0.15.0"
@@ -293,7 +293,7 @@ group :development, :test do
   gem "rspec-rails", "5.0.1"
 
   # Cucumber (integration tests)
-  gem "cucumber-rails", "2.3.0", require: false
+  gem "cucumber-rails", "3.0.0", require: false
 
   # Jasmine (client side application tests (JS))
   gem "chrome_remote",             "0.3.0"
